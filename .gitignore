@@ -332,3 +332,4 @@ ASALocalRun/
 # Build related
 tools/**
 !tools/packages.config
+/build/
