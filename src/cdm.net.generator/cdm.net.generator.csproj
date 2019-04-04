@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,10 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.4.3" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.3.3" />
+    <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.10" />
     <PackageReference Include="NJsonSchema" Version="9.13.28" />
     <PackageReference Include="NJsonSchema.CodeGeneration" Version="9.13.28" />
     <PackageReference Include="NJsonSchema.CodeGeneration.CSharp" Version="9.13.28" />
     <PackageReference Include="NJsonSchema.CodeGeneration.TypeScript" Version="9.13.28" />
+    <PackageReference Include="Octokit" Version="0.32.0" />
+    <PackageReference Include="Serilog" Version="2.8.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="ShellProgressBar" Version="4.2.0" />
   </ItemGroup>
 
 </Project>
